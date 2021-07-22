@@ -1,13 +1,27 @@
-"""
 
-Target for today are:
+F = """sample String :"Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high 
+    Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"""
+print(F)
 
-1. Write a Python program to print the following string in a specific format (see the output-1)
-    'Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high,
-     Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"'
-    Tools: print function
-2. Write a Python program to get the Python version you are using
-    Tools: sys module
+
+import sys
+
+x = (sys.version)
+print(x)
+
+import datetime
+
+
+y = datetime.datetime.now()
+print(y)
+
+
+
+
+
+
+"""""
+
 3. Write a Python program to display the current date and time.
     Sample Output :
         Current date and time : 2014-07-05 14:34:14
@@ -50,5 +64,4 @@ Target for today are:
         Sample value of n is 5
         Expected Result : 615
     Tools: input function, maths
-
 """
